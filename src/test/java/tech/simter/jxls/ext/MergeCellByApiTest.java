@@ -80,7 +80,7 @@ public class MergeCellByApiTest {
   }
 
   private String buildAreaRef(String name) {
-    return "Sheet1!" + name;
+    return "Sheet2!" + name;
   }
 
   public static Context convert2Context(Map<String, Object> data) {
